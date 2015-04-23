@@ -1,0 +1,36 @@
+{
+  "name": "col80",
+
+  "version": "0.0.1",
+  "homepage": "https://github.com/g105b/col80",
+
+  "dependencies": {
+    "normalize-scss": "latest"
+  },
+
+  "authors": [
+    "Greg Bowler <greg.bowler@g105b.com>"
+  ],
+
+  "description": "80-column fixed width web style",
+  "main": "src/col80.scss",
+
+  "keywords": [
+    "sass",
+    "scss",
+    "fixed",
+    "width",
+    "80column",
+    "monospace"
+  ],
+
+  "license": "MIT",
+
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
