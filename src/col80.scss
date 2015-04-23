@@ -1,0 +1,32 @@
+@import "../bower_components/normalize-scss/_normalize.scss";
+
+html {
+	padding: 0 0.5rem;
+	font-size: 12px;
+
+	@media(min-width: 800px) {
+		font-size: 14px;
+		padding-left: 6rem;
+	}
+
+	@media(min-width: 1024px) {
+		font-size: 18px;
+	}
+}
+body {
+	font-family: monospace;
+	max-width: 48rem;
+}
+
+h1, h2, h3, h4, h5, h6, small, sub, sup {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+p {
+	padding-left: 0.5rem;
+}
